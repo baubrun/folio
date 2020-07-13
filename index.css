@@ -1,0 +1,26 @@
+body {
+    font-family: "Simonetta", cursive;
+}
+
+.max-viewport {
+    min-height: 100vh;
+}
+
+
+#banner,
+#contact,
+#social {
+    background: linear-gradient(
+        rgba(139, 69, 19, 0.6), rgba(139, 69, 19, 0.6)),
+        url(images/person.svg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#portfolio img {
+    object-fit: contain;
+    width: 434px;
+    height: 270px;
+}
