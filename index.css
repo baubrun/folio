@@ -2,6 +2,30 @@ body {
     font-family: "Simonetta", cursive;
 }
 
+
+@keyframes bouncy {
+    0% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+#avatar {
+    animation-name: bouncy;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite;
+    transition: all 2s ease;
+}
+
+
+
 .max-viewport {
     min-height: 100vh;
 }
@@ -23,4 +47,18 @@ body {
     object-fit: contain;
     width: 434px;
     height: 270px;
+}
+
+
+.folios {
+    overflow: hidden;
+    transition: all 2s ease;
+}
+
+
+.folios:hover {
+    outline: 10px solid rgba(139, 69, 19, 0.6);
+    outline-offset: 0.6rem;
+    transform: scale(1.2);
+
 }
