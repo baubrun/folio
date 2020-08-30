@@ -5,11 +5,20 @@ import conssImg from "../images/cs.PNG"
 import comedyImg from "../images/ch.PNG"
 import mlImg from "../images/ml.PNG"
 import ptImg from "../images/pb.PNG"
+import phoneStoreImg from "../images/ms.PNG"
 
 
 let gitRoot = "https://github.com/baubrun/"
 
 const projects = [
+    {
+        title: "Mobile-phone-store",
+        description: "Mobile phone store front",
+        image: phoneStoreImg,
+        alt: "Mobile phone store project",
+        sourceCode: `${gitRoot}/Mobile-phone-store`,
+        url: "https://dazzling-wilson-1fb3c5.netlify.app/"
+    },
     {
         title: "Resto",
         description: "Responsive frontend for a restaurant.",
