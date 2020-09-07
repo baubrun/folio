@@ -6,11 +6,20 @@ import comedyImg from "../images/ch.PNG"
 import mlImg from "../images/ml.PNG"
 import ptImg from "../images/pb.PNG"
 import phoneStoreImg from "../images/ms.PNG"
+import cafeImg from "../images/cf.PNG"
 
 
 let gitRoot = "https://github.com/baubrun/"
 
 const projects = [
+    {
+        title: "Café",
+        description: "Responsive frontend for a Café",
+        image: cafeImg,
+        alt: "Cafe frontend",
+        sourceCode: `${gitRoot}/Cafe`,
+        url: "https://heuristic-knuth-a3a7ce.netlify.app/"
+    },
     {
         title: "Mobile-phone-store",
         description: "Mobile phone store front",
