@@ -2,16 +2,24 @@ import restoImg from "../images/rt.PNG"
 import qcImg from "../images/qc.PNG"
 import chatImg from "../images/op.PNG"
 import conssImg from "../images/cs.PNG"
-import comedyImg from "../images/ch.PNG"
 import mlImg from "../images/ml.PNG"
 import ptImg from "../images/pb.PNG"
 import phoneStoreImg from "../images/ms.PNG"
 import cafeImg from "../images/cf.PNG"
+import socialIMg from "../images/sw.PNG"
 
 
 let gitRoot = "https://github.com/baubrun/"
 
 const projects = [
+    {
+        title: "Social-Wall",
+        description: "Responsive CRUD for messages and images",
+        image: socialIMg,
+        alt: "Social-Wall",
+        sourceCode: `${gitRoot}/Social`,
+        url: "https://focused-goodall-43bb2f.netlify.app/"
+    },
     {
         title: "Café",
         description: "Responsive frontend for a Café",
@@ -59,14 +67,6 @@ const projects = [
         alt: "Concessionnaire",
         sourceCode: `${gitRoot}/Concessionnaire`,
         url: "https://loving-jepsen-2cb651.netlify.app/"
-    },
-    {
-        title: "Comedy-Scheduler",
-        description: "CRUD comedy events. Sell and purchase tickets.",
-        image: comedyImg,
-        alt: "Comedy-Scheduler",
-        sourceCode: `${gitRoot}/Comedy-Scheduler`,
-        url: "https://b-cc-hub.herokuapp.com/"
     },
     {
         title: "Machine Learning",
