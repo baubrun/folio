@@ -7,11 +7,20 @@ import ptImg from "../images/pb.PNG"
 import phoneStoreImg from "../images/ms.PNG"
 import cafeImg from "../images/cf.PNG"
 import socialIMg from "../images/sw.PNG"
+import frelloImg from "../images/fr.PNG"
 
 
 let gitRoot = "https://github.com/baubrun/"
 
 const projects = [
+    {
+        title: "Frello",
+        description: "A Trello clone app.",
+        image: frelloImg,
+        alt: "Frello",
+        sourceCode: `${gitRoot}/frello`,
+        url: "https://github.com/baubrun/frello"
+    },
     {
         title: "Social-Wall",
         description: "Responsive CRUD for messages and images",
