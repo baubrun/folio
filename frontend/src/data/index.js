@@ -19,7 +19,7 @@ const projects = [
         image: frelloImg,
         alt: "Frello",
         sourceCode: `${gitRoot}/frello`,
-        url: "https://github.com/baubrun/frello"
+        url: "https://upbeat-thompson-bd9e41.netlify.app/"
     },
     {
         title: "Social-Wall",
