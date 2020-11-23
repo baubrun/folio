@@ -8,11 +8,20 @@ import phoneStoreImg from "../images/ms.PNG"
 import cafeImg from "../images/cf.PNG"
 import socialIMg from "../images/sw.PNG"
 import frelloImg from "../images/fr.PNG"
+import classeImg from "../images/lc.PNG"
 
 
 let gitRoot = "https://github.com/baubrun/"
 
 const projects = [
+    {
+        title: "La Classe",
+        description: "A Course App.",
+        image: classeImg,
+        alt: "La Classe",
+        sourceCode: `${gitRoot}/courses`,
+        url: `${gitRoot}/courses`
+    },
     {
         title: "Frello",
         description: "A Trello clone app.",
@@ -23,7 +32,7 @@ const projects = [
     },
     {
         title: "Social-Wall",
-        description: "Responsive CRUD for messages and images",
+        description: "Responsive CRUD for messages and images.",
         image: socialIMg,
         alt: "Social-Wall",
         sourceCode: `${gitRoot}/Social`,
@@ -31,7 +40,7 @@ const projects = [
     },
     {
         title: "Café",
-        description: "Responsive frontend for a Café",
+        description: "Responsive frontend for a Café.",
         image: cafeImg,
         alt: "Cafe frontend",
         sourceCode: `${gitRoot}/Cafe`,
@@ -39,7 +48,7 @@ const projects = [
     },
     {
         title: "Mobile-phone-store",
-        description: "Mobile phone store front",
+        description: "Mobile phone store front.",
         image: phoneStoreImg,
         alt: "Mobile phone store project",
         sourceCode: `${gitRoot}/Mobile-phone-store`,
@@ -63,7 +72,7 @@ const projects = [
     },
     {
         title: "On Parle",
-        description: "Chat App",
+        description: "Chat App.",
         image: chatImg,
         alt: "Chat App",
         sourceCode: `${gitRoot}/Chat-App`,
@@ -71,7 +80,7 @@ const projects = [
     },
     {
         title: "Concessionnaire",
-        description: "Ce project est une conception frontale réactive pour un concessionnaire.",
+        description: "Conception frontale réactive pour un concessionnaire.",
         image: conssImg,
         alt: "Concessionnaire",
         sourceCode: `${gitRoot}/Concessionnaire`,
@@ -79,7 +88,7 @@ const projects = [
     },
     {
         title: "Machine Learning",
-        description: "Machine Learning",
+        description: "Machine Learning.",
         image: mlImg,
         alt: "Machine Learning",
         sourceCode: `${gitRoot}/Machine_Learning`,
@@ -87,7 +96,7 @@ const projects = [
     },
     {
         title: "Patisserie",
-        description: "Patisserie",
+        description: "Conception frontale pour une Patisserie.",
         image: ptImg,
         alt: "Patisserie",
         sourceCode: `${gitRoot}/Patisserie`,
