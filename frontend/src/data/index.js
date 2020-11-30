@@ -9,6 +9,7 @@ import cafeImg from "../images/cf.PNG"
 import socialIMg from "../images/sw.PNG"
 import frelloImg from "../images/fr.PNG"
 import classeImg from "../images/lc.PNG"
+import comedyImg from "../images/ch.PNG"
 
 
 let gitRoot = "https://github.com/baubrun/"
@@ -101,6 +102,14 @@ const projects = [
         alt: "Patisserie",
         sourceCode: `${gitRoot}/Patisserie`,
         url: "https://focused-raman-fa464c.netlify.app/"
+    },
+    {
+        title: "Comedy-Hub",
+        description: "CRUD comedy events. Sell and purchase tickets.",
+        image: comedyImg,
+        alt: "Comedy-Scheduler",
+        sourceCode: `${gitRoot}/Comedy-Scheduler`, 
+        url: `${gitRoot}/Comedy-Hub`
     },
 ]
 
