@@ -16,14 +16,6 @@ let gitRoot = "https://github.com/baubrun/"
 
 const projects = [
     {
-        title: "La Classe",
-        description: "A Course App.",
-        image: classeImg,
-        alt: "La Classe",
-        sourceCode: `${gitRoot}/courses`,
-        url: `${gitRoot}/courses`
-    },
-    {
         title: "Frello",
         description: "A Trello clone app.",
         image: frelloImg,
@@ -39,6 +31,15 @@ const projects = [
         sourceCode: `${gitRoot}/Social`,
         url: "https://focused-goodall-43bb2f.netlify.app/"
     },
+    {
+        title: "Comedy-Hub",
+        description: "CRUD comedy events. Sell and purchase tickets.",
+        image: comedyImg,
+        alt: "Comedy-Scheduler",
+        sourceCode: `${gitRoot}/Comedy-Scheduler`,
+        url: `${gitRoot}/Comedy-Hub`
+    },
+
     {
         title: "Café",
         description: "Responsive frontend for a Café.",
@@ -88,14 +89,6 @@ const projects = [
         url: "https://loving-jepsen-2cb651.netlify.app/"
     },
     {
-        title: "Machine Learning",
-        description: "Machine Learning.",
-        image: mlImg,
-        alt: "Machine Learning",
-        sourceCode: `${gitRoot}/Machine_Learning`,
-        url: "https://github.com/baubrun/Machine_Learning"
-    },
-    {
         title: "Patisserie",
         description: "Conception frontale pour une Patisserie.",
         image: ptImg,
@@ -104,13 +97,23 @@ const projects = [
         url: "https://focused-raman-fa464c.netlify.app/"
     },
     {
-        title: "Comedy-Hub",
-        description: "CRUD comedy events. Sell and purchase tickets.",
-        image: comedyImg,
-        alt: "Comedy-Scheduler",
-        sourceCode: `${gitRoot}/Comedy-Scheduler`, 
-        url: `${gitRoot}/Comedy-Hub`
+        title: "Machine Learning",
+        description: "Machine Learning.",
+        image: mlImg,
+        alt: "Machine Learning",
+        sourceCode: `${gitRoot}/Machine_Learning`,
+        url: "https://github.com/baubrun/Machine_Learning"
     },
+    {
+        title: "La Classe",
+        description: "A Course App.",
+        image: classeImg,
+        alt: "La Classe",
+        sourceCode: `${gitRoot}/courses`,
+        url: `${gitRoot}/courses`
+    },
+
+
 ]
 
 
