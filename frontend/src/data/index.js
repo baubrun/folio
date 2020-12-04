@@ -24,6 +24,14 @@ const projects = [
         url: "https://upbeat-thompson-bd9e41.netlify.app/"
     },
     {
+        title: "Comedy-Hub",
+        description: "CRUD comedy events. Sell and purchase tickets.",
+        image: comedyImg,
+        alt: "Comedy-Hub",
+        sourceCode: `${gitRoot}/Comedy-Hub`,
+        url: "https://com-hub.herokuapp.com"
+    },
+    {
         title: "Social-Wall",
         description: "Responsive CRUD for messages and images.",
         image: socialIMg,
@@ -31,15 +39,6 @@ const projects = [
         sourceCode: `${gitRoot}/Social`,
         url: "https://focused-goodall-43bb2f.netlify.app/"
     },
-    {
-        title: "Comedy-Hub",
-        description: "CRUD comedy events. Sell and purchase tickets.",
-        image: comedyImg,
-        alt: "Comedy-Scheduler",
-        sourceCode: `${gitRoot}/Comedy-Scheduler`,
-        url: `${gitRoot}/Comedy-Hub`
-    },
-
     {
         title: "Café",
         description: "Responsive frontend for a Café.",
