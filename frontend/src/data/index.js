@@ -36,8 +36,8 @@ const projects = [
         description: "Responsive CRUD for messages and images.",
         image: socialIMg,
         alt: "Social-Wall",
-        sourceCode: `${gitRoot}/Social`,
-        url: "https://focused-goodall-43bb2f.netlify.app/"
+        sourceCode: `${gitRoot}/social-heroku`,
+        url: "https://social-w-b.herokuapp.com/"
     },
     {
         title: "Café",
