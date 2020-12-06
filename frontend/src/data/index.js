@@ -103,14 +103,6 @@ const projects = [
         sourceCode: `${gitRoot}/Machine_Learning`,
         url: "https://github.com/baubrun/Machine_Learning"
     },
-    {
-        title: "La Classe",
-        description: "A Course App.",
-        image: classeImg,
-        alt: "La Classe",
-        sourceCode: `${gitRoot}/courses`,
-        url: `${gitRoot}/courses`
-    },
 
 
 ]
