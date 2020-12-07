@@ -48,6 +48,14 @@ const projects = [
         url: "https://heuristic-knuth-a3a7ce.netlify.app/"
     },
     {
+        title: "La Classe",
+        description: "A Course App.",
+        image: classeImg,
+        alt: "La Classe",
+        sourceCode: `${gitRoot}/courses`,
+        url: `${gitRoot}/courses`
+    },
+    {
         title: "Mobile-phone-store",
         description: "Mobile phone store front.",
         image: phoneStoreImg,
