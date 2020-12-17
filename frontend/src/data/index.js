@@ -53,7 +53,7 @@ const projects = [
         image: classeImg,
         alt: "La Classe",
         sourceCode: `${gitRoot}/courses`,
-        url: `${gitRoot}/courses`
+        url: "https://c-room.herokuapp.com"
     },
     {
         title: "Mobile-phone-store",
