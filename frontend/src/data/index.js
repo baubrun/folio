@@ -10,6 +10,7 @@ import socialIMg from "../images/sw.PNG"
 import frelloImg from "../images/fr.PNG"
 import classeImg from "../images/lc.PNG"
 import comedyImg from "../images/ch.PNG"
+import msPhpImg from "../images/ms-php.PNG"
 
 
 let gitRoot = "https://github.com/baubrun/"
@@ -38,6 +39,14 @@ const projects = [
         alt: "Social-Wall",
         sourceCode: `${gitRoot}/social-heroku`,
         url: "https://social-w-b.herokuapp.com/"
+    },
+    {
+        title: "Message-board",
+        description: "Message board where registered users can create posts and like posts.",
+        image: msPhpImg,
+        alt: "Message-board",
+        sourceCode: `${gitRoot}/Message-board`,
+        url: `${gitRoot}/Message-board`
     },
     {
         title: "Café",
