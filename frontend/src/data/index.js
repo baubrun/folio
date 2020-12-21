@@ -11,6 +11,7 @@ import frelloImg from "../images/fr.PNG"
 import classeImg from "../images/lc.PNG"
 import comedyImg from "../images/ch.PNG"
 import msPhpImg from "../images/ms-php.PNG"
+import hotelImg from "../images/hr.PNG"
 
 
 let gitRoot = "https://github.com/baubrun/"
@@ -31,6 +32,14 @@ const projects = [
         alt: "Comedy-Hub",
         sourceCode: `${gitRoot}/Comedy-Hub`,
         url: "https://com-hub.herokuapp.com"
+    },
+    {
+        title: "Hotel-Rooms",
+        description: "A simple hotel app where users can view rooms.",
+        image: hotelImg,
+        alt: "Hotel-Rooms",
+        sourceCode: `${gitRoot}/Hotel`,
+        url: "https://adoring-clarke-6c55be.netlify.app/"
     },
     {
         title: "Social-Wall",
