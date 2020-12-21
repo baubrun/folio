@@ -12,6 +12,7 @@ import classeImg from "../images/lc.PNG"
 import comedyImg from "../images/ch.PNG"
 import msPhpImg from "../images/ms-php.PNG"
 import hotelImg from "../images/hr.PNG"
+import budgetJs from "../images/ba.PNG"
 
 
 let gitRoot = "https://github.com/baubrun/"
@@ -19,7 +20,7 @@ let gitRoot = "https://github.com/baubrun/"
 const projects = [
     {
         title: "Frello",
-        description: "A Trello clone app.",
+        description: "A Trello frontend clone app.",
         image: frelloImg,
         alt: "Frello",
         sourceCode: `${gitRoot}/frello`,
@@ -32,6 +33,14 @@ const projects = [
         alt: "Comedy-Hub",
         sourceCode: `${gitRoot}/Comedy-Hub`,
         url: "https://com-hub.herokuapp.com"
+    },
+    {
+        title: "Simple Budget",
+        description: "A simple frontend budget app.",
+        image: budgetJs,
+        alt: "Simple Budget",
+        sourceCode: `${gitRoot}/budget-js`,
+        url: "https://eager-tesla-c26f9a.netlify.app/"
     },
     {
         title: "Hotel-Rooms",
@@ -51,7 +60,7 @@ const projects = [
     },
     {
         title: "Message-board",
-        description: "Message board where registered users can create posts and like posts.",
+        description: "Message board app.",
         image: msPhpImg,
         alt: "Message-board",
         sourceCode: `${gitRoot}/Message-board`,
@@ -75,7 +84,7 @@ const projects = [
     },
     {
         title: "Mobile-phone-store",
-        description: "Mobile phone store front.",
+        description: "Mobile phone store frontend.",
         image: phoneStoreImg,
         alt: "Mobile phone store project",
         sourceCode: `${gitRoot}/Mobile-phone-store`,
