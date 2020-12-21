@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import projects from "../data";
 
 import Spinner from "./Spinner";
