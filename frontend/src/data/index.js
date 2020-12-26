@@ -13,11 +13,20 @@ import comedyImg from "../images/ch.PNG"
 import msPhpImg from "../images/ms-php.PNG"
 import hotelImg from "../images/hr.PNG"
 import budgetJs from "../images/ba.PNG"
+import restoRevImg from "../images/rr.PNG"
 
 
 let gitRoot = "https://github.com/baubrun/"
 
 const projects = [
+    {
+        title: "Resto-Reviews",
+        description: "A restaurant review app.",
+        image: restoRevImg,
+        alt: "Resto-reviews",
+        sourceCode: `${gitRoot}/Resto-Reviews`,
+        url: "https://reviews-resto.herokuapp.com/"
+    },
     {
         title: "Frello",
         description: "A Trello frontend clone app.",
