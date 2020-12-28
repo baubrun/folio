@@ -19,15 +19,14 @@ import popGrowth from "../images/popGrowth.PNG"
 
 let gitRoot = "https://github.com/baubrun/"
 
-const projects = [
-    {
+const projects = [{
         title: "Population Growth",
         description: "A Data visualization project displaying population growth.",
         image: popGrowth,
         alt: "popGrowth",
         sourceCode: `${gitRoot}/popGrowth`,
         url: "https://keen-poincare-7c97f6.netlify.app/"
-    },{
+    }, {
         title: "Resto-Reviews",
         description: "A restaurant review app.",
         image: restoRevImg,
@@ -76,12 +75,12 @@ const projects = [
         url: "https://social-w-b.herokuapp.com/"
     },
     {
-        title: "Message-board",
-        description: "Message board app.",
-        image: msPhpImg,
-        alt: "Message-board",
-        sourceCode: `${gitRoot}/Message-board`,
-        url: `${gitRoot}/Message-board`
+        title: "Machine Learning",
+        description: "Machine Learning.",
+        image: mlImg,
+        alt: "Machine Learning",
+        sourceCode: `${gitRoot}/Machine_Learning`,
+        url: "https://github.com/baubrun/Machine_Learning"
     },
     {
         title: "Café",
@@ -98,6 +97,14 @@ const projects = [
         alt: "La Classe",
         sourceCode: `${gitRoot}/courses`,
         url: "https://c-room.herokuapp.com"
+    },
+    {
+        title: "Message-board",
+        description: "Message board app.",
+        image: msPhpImg,
+        alt: "Message-board",
+        sourceCode: `${gitRoot}/Message-board`,
+        url: `${gitRoot}/Message-board`
     },
     {
         title: "Mobile-phone-store",
@@ -146,14 +153,6 @@ const projects = [
         alt: "Patisserie",
         sourceCode: `${gitRoot}/Patisserie`,
         url: "https://focused-raman-fa464c.netlify.app/"
-    },
-    {
-        title: "Machine Learning",
-        description: "Machine Learning.",
-        image: mlImg,
-        alt: "Machine Learning",
-        sourceCode: `${gitRoot}/Machine_Learning`,
-        url: "https://github.com/baubrun/Machine_Learning"
     },
 
 
