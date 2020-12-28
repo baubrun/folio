@@ -14,12 +14,20 @@ import msPhpImg from "../images/ms-php.PNG"
 import hotelImg from "../images/hr.PNG"
 import budgetJs from "../images/ba.PNG"
 import restoRevImg from "../images/rr.PNG"
+import popGrowth from "../images/popGrowth.PNG"
 
 
 let gitRoot = "https://github.com/baubrun/"
 
 const projects = [
     {
+        title: "Population Growth",
+        description: "A Data visualization project displaying population growth.",
+        image: popGrowth,
+        alt: "popGrowth",
+        sourceCode: `${gitRoot}/popGrowth`,
+        url: "https://keen-poincare-7c97f6.netlify.app/"
+    },{
         title: "Resto-Reviews",
         description: "A restaurant review app.",
         image: restoRevImg,
