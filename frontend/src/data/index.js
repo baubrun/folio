@@ -19,8 +19,7 @@ import hospital from "../images/hospManag.PNG"
 
 let gitRoot = "https://github.com/baubrun/"
 
-const projects = [
-    {
+const projects = [{
         title: "Hospital Management",
         description: " A hospital management app.",
         image: hospital,
@@ -44,14 +43,6 @@ const projects = [
         url: "https://c-room.herokuapp.com"
     },
 
-    {
-        title: "Resto-Reviews",
-        description: "A restaurant review app.",
-        image: restoRevImg,
-        alt: "Resto-reviews",
-        sourceCode: `${gitRoot}/Resto-Reviews`,
-        url: "https://reviews-resto.herokuapp.com/"
-    },
     {
         title: "Frello",
         description: "A Trello frontend clone app.",
@@ -110,6 +101,15 @@ const projects = [
         url: "https://github.com/baubrun/Machine_Learning"
     },
     {
+        title: "Resto-Reviews",
+        description: "A restaurant review app.",
+        image: restoRevImg,
+        alt: "Resto-reviews",
+        sourceCode: `${gitRoot}/Resto-Reviews`,
+        url: "https://reviews-resto.herokuapp.com/"
+    },
+
+    {
         title: "Café",
         description: "Responsive frontend for a Café.",
         image: cafeImg,
@@ -140,14 +140,6 @@ const projects = [
         alt: "Resto project",
         sourceCode: `${gitRoot}/Resto`,
         url: "https://relaxed-clarke-539d8c.netlify.app"
-    },
-    {
-        title: "Covid19-QC",
-        description: "API qui présente le statut du Coronavirus au Québec.",
-        image: qcImg,
-        alt: "projet Covid-QC",
-        sourceCode: `${gitRoot}/Covid19-QC`,
-        url: "https://thirsty-clarke-688aee.netlify.app/"
     },
     {
         title: "On Parle",
