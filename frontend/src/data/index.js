@@ -15,18 +15,36 @@ import hotelImg from "../images/hr.PNG"
 import budgetJs from "../images/ba.PNG"
 import restoRevImg from "../images/rr.PNG"
 import popGrowth from "../images/popGrowth.PNG"
-
+import hospital from "../images/hospManag.PNG"
 
 let gitRoot = "https://github.com/baubrun/"
 
-const projects = [{
+const projects = [
+    {
+        title: "Hospital Management",
+        description: " A hospital management app.",
+        image: hospital,
+        alt: "Hospital Management",
+        sourceCode: `${gitRoot}/hospital-management`,
+        url: `${gitRoot}/hospital-management`
+    }, {
         title: "Population Growth",
         description: "A Data visualization project displaying population growth.",
         image: popGrowth,
         alt: "popGrowth",
         sourceCode: `${gitRoot}/popGrowth`,
         url: "https://keen-poincare-7c97f6.netlify.app/"
-    }, {
+    },
+    {
+        title: "La Classe",
+        description: "A Course App.",
+        image: classeImg,
+        alt: "La Classe",
+        sourceCode: `${gitRoot}/courses`,
+        url: "https://c-room.herokuapp.com"
+    },
+
+    {
         title: "Resto-Reviews",
         description: "A restaurant review app.",
         image: restoRevImg,
@@ -42,6 +60,15 @@ const projects = [{
         sourceCode: `${gitRoot}/frello`,
         url: "https://upbeat-thompson-bd9e41.netlify.app/"
     },
+    {
+        title: "Covid19-QC",
+        description: "API qui présente le statut du Coronavirus au Québec.",
+        image: qcImg,
+        alt: "projet Covid-QC",
+        sourceCode: `${gitRoot}/Covid19-QC`,
+        url: "https://thirsty-clarke-688aee.netlify.app/"
+    },
+
     {
         title: "Comedy-Hub",
         description: "CRUD comedy events. Sell and purchase tickets.",
@@ -89,14 +116,6 @@ const projects = [{
         alt: "Cafe frontend",
         sourceCode: `${gitRoot}/Cafe`,
         url: "https://heuristic-knuth-a3a7ce.netlify.app/"
-    },
-    {
-        title: "La Classe",
-        description: "A Course App.",
-        image: classeImg,
-        alt: "La Classe",
-        sourceCode: `${gitRoot}/courses`,
-        url: "https://c-room.herokuapp.com"
     },
     {
         title: "Message-board",
