@@ -21,11 +21,11 @@ let gitRoot = "https://github.com/baubrun/"
 
 const projects = [{
         title: "Hospital Management",
-        description: " A hospital management app.",
+        description: " A hospital management app. (UNDER CONSTRUCTION...)",
         image: hospital,
         alt: "Hospital Management",
         sourceCode: `${gitRoot}/hospital-management`,
-        url: `${gitRoot}/hospital-management`
+        url: `https://hosp-man.herokuapp.com/`
     }, {
         title: "Population Growth",
         description: "A Data visualization project displaying population growth.",
