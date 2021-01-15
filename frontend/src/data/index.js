@@ -21,7 +21,7 @@ let gitRoot = "https://github.com/baubrun/"
 
 const projects = [{
         title: "Hospital Management",
-        description: " A hospital management app. (UNDER CONSTRUCTION...)",
+        description: " A hospital management app.",
         image: hospital,
         alt: "Hospital Management",
         sourceCode: `${gitRoot}/hospital-management`,
