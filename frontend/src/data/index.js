@@ -2,7 +2,7 @@ import restoImg from "../images/rt.PNG"
 import qcImg from "../images/qc.PNG"
 import chatImg from "../images/op.PNG"
 import conssImg from "../images/cs.PNG"
-import mlImg from "../images/ml.PNG"
+import mlImg from "../images/ml.png"
 import ptImg from "../images/pb.PNG"
 import phoneStoreImg from "../images/ms.PNG"
 import cafeImg from "../images/cf.PNG"
@@ -10,23 +10,32 @@ import socialIMg from "../images/sw.PNG"
 import frelloImg from "../images/fr.PNG"
 import classeImg from "../images/lc.PNG"
 import comedyImg from "../images/ch.PNG"
-import msPhpImg from "../images/ms-php.PNG"
 import hotelImg from "../images/hr.PNG"
 import budgetJs from "../images/ba.PNG"
 import restoRevImg from "../images/rr.PNG"
 import popGrowth from "../images/popGrowth.PNG"
 import hospital from "../images/hospManag.PNG"
+import contractors from "../images/contractors.PNG"
 
 let gitRoot = "https://github.com/baubrun/"
 
 const projects = [{
+        title: "Contractors",
+        description: "App where contractors can submit completed jobs.",
+        image: contractors,
+        alt: "Contractors",
+        sourceCode: `${gitRoot}/contractors`,
+        url: `https://github.com/baubrun/contractors`
+    },
+    {
         title: "Hospital Management",
         description: " A hospital management app.",
         image: hospital,
         alt: "Hospital Management",
         sourceCode: `${gitRoot}/hospital-management`,
         url: `https://hosp-man.herokuapp.com/`
-    }, {
+    },
+    {
         title: "Population Growth",
         description: "A Data visualization project displaying population growth.",
         image: popGrowth,
@@ -42,15 +51,6 @@ const projects = [{
         sourceCode: `${gitRoot}/courses`,
         url: "https://c-room.herokuapp.com"
     },
-
-    {
-        title: "Frello",
-        description: "A Trello frontend clone app.",
-        image: frelloImg,
-        alt: "Frello",
-        sourceCode: `${gitRoot}/frello`,
-        url: "https://upbeat-thompson-bd9e41.netlify.app/"
-    },
     {
         title: "Covid19-QC",
         description: "API qui présente le statut du Coronavirus au Québec.",
@@ -59,7 +59,14 @@ const projects = [{
         sourceCode: `${gitRoot}/Covid19-QC`,
         url: "https://thirsty-clarke-688aee.netlify.app/"
     },
-
+    {
+        title: "Hotel-Rooms",
+        description: "A simple hotel app where users can view rooms.",
+        image: hotelImg,
+        alt: "Hotel-Rooms",
+        sourceCode: `${gitRoot}/Hotel`,
+        url: "https://adoring-clarke-6c55be.netlify.app/"
+    },
     {
         title: "Comedy-Hub",
         description: "CRUD comedy events. Sell and purchase tickets.",
@@ -77,13 +84,15 @@ const projects = [{
         url: "https://eager-tesla-c26f9a.netlify.app/"
     },
     {
-        title: "Hotel-Rooms",
-        description: "A simple hotel app where users can view rooms.",
-        image: hotelImg,
-        alt: "Hotel-Rooms",
-        sourceCode: `${gitRoot}/Hotel`,
-        url: "https://adoring-clarke-6c55be.netlify.app/"
+        title: "Frello",
+        description: "A Trello frontend clone app.",
+        image: frelloImg,
+        alt: "Frello",
+        sourceCode: `${gitRoot}/frello`,
+        url: "https://upbeat-thompson-bd9e41.netlify.app/"
     },
+
+
     {
         title: "Social-Wall",
         description: "Responsive CRUD for messages and images.",
@@ -116,14 +125,6 @@ const projects = [{
         alt: "Cafe frontend",
         sourceCode: `${gitRoot}/Cafe`,
         url: "https://heuristic-knuth-a3a7ce.netlify.app/"
-    },
-    {
-        title: "Message-board",
-        description: "Message board app.",
-        image: msPhpImg,
-        alt: "Message-board",
-        sourceCode: `${gitRoot}/Message-board`,
-        url: `${gitRoot}/Message-board`
     },
     {
         title: "Mobile-phone-store",
