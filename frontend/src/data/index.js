@@ -2,7 +2,6 @@ import restoImg from "../images/rt.PNG"
 import qcImg from "../images/qc.PNG"
 import chatImg from "../images/op.PNG"
 import conssImg from "../images/cs.PNG"
-import mlImg from "../images/ml.png"
 import ptImg from "../images/pb.PNG"
 import phoneStoreImg from "../images/ms.PNG"
 import cafeImg from "../images/cf.PNG"
@@ -16,6 +15,7 @@ import restoRevImg from "../images/rr.PNG"
 import popGrowth from "../images/popGrowth.PNG"
 import hospital from "../images/hospManag.PNG"
 import contractors from "../images/contractors.PNG"
+import machine from "../images/machine.PNG"
 
 let gitRoot = "https://github.com/baubrun/"
 
@@ -104,7 +104,7 @@ const projects = [{
     {
         title: "Machine Learning",
         description: "Machine Learning.",
-        image: mlImg,
+        image: machine,
         alt: "Machine Learning",
         sourceCode: `${gitRoot}/Machine_Learning`,
         url: "https://github.com/baubrun/Machine_Learning"
