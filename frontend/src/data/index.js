@@ -16,6 +16,7 @@ import popGrowth from "../images/popGrowth.PNG"
 import hospital from "../images/hospManag.PNG"
 import contractors from "../images/contractors.PNG"
 import machine from "../images/machine.PNG"
+import dp_py from "../images/dp_py.png"
 
 let gitRoot = "https://github.com/baubrun/"
 
@@ -42,6 +43,14 @@ const projects = [{
         alt: "popGrowth",
         sourceCode: `${gitRoot}/popGrowth`,
         url: "https://keen-poincare-7c97f6.netlify.app/"
+    },
+    {
+        title: "Design Patterns",
+        description: "Examples of design patterns.",
+        image: dp_py,
+        alt: "Design Patterns",
+        sourceCode: `${gitRoot}/dp_py`,
+        url: `${gitRoot}/dp_py`
     },
     {
         title: "La Classe",
@@ -91,8 +100,6 @@ const projects = [{
         sourceCode: `${gitRoot}/frello`,
         url: "https://upbeat-thompson-bd9e41.netlify.app/"
     },
-
-
     {
         title: "Social-Wall",
         description: "Responsive CRUD for messages and images.",
